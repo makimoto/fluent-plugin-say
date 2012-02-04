@@ -21,5 +21,3 @@ class SayOutput < Output
 
 end
 end
-
-
