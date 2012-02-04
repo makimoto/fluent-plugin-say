@@ -1,3 +1,4 @@
 source "http://rubygems.org"
 
-gem "fluentd"
+gem 'fluentd'
+gem 'jeweler'
