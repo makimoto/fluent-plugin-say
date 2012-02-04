@@ -1,6 +1,22 @@
 = fluent-plugin-say
 
-Description goes here.
+Fluentd output plugin to say something by using 'say' command
+
+== Instration
+
+    $ fluent-gem install fluent-plugin-say
+
+== fluent.conf
+
+    <match say.**>
+      type say
+
+      voice kyoko
+      # system voice (kyoko, alex, etc...)
+
+      field say
+      # field name to say (default: message)
+    </match>
 
 == Contributing to fluent-plugin-say
  
