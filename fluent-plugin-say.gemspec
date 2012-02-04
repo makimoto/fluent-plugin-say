@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "fluent-plugin-say"
-  s.version = "0.0.1"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Shimpei Makimoto"]
@@ -18,11 +18,14 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "fluent-plugin-say.gemspec",
     "lib/fluent/plugin/out_say.rb"
   ]
   s.homepage = "http://github.com/makimoto/fluent-plugin-say"
