@@ -13,11 +13,10 @@ class SayOutput < Output
       @voice = record['voice'] if record['voice']
       next unless message
       args = [ message.to_s ]
-      args.push "-v#{@voice}" if @voice
+      args.push("-v#{@voice}") if @voice
       system('say', *args)
     }
     chain.next
   end
-
 end
 end
