@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "fluent-plugin-say"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Shimpei Makimoto"]
-  s.date = "2012-02-04"
+  s.date = "2012-02-05"
   s.description = "Fluentd output plugin to say something by using 'say' command"
   s.email = "makimoto@tsuyabu.in"
   s.extra_rdoc_files = [
